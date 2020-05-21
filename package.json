@@ -1,5 +1,5 @@
 {
-  "name": "kafka-node",
+  "name": "expres-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,7 +22,10 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "errorhandler": "^1.5.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "bluebird": "3.5.5",
+    "connect-mongo": "^3.0.0",
+    "mongoose": "^5.7.1"
   },
   "devDependencies": {
     "@types/async": "^3.0.2",
@@ -39,7 +42,10 @@
     "@types/cors": "^2.8.6",
     "@types/concurrently": "^4.1.0",
     "nodemon": "^1.19.2",
-    "concurrently": "^5.0.0"
+    "concurrently": "^5.0.0",
+    "@types/bluebird": "3.5.27",
+    "@types/connect-mongo": "^3.0.0",
+    "@types/mongoose": "^5.5.18"
   },
   "author": "",
   "license": "ISC"
